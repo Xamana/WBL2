@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player {
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.cover__container {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover {
+    width: 175px;
+    min-height: 175px;
+    margin: 25px auto;
+    background: rgb(251,214,63);
+    background: radial-gradient(circle, rgba(251,214,63,1) 0%, rgba(252,70,107,1) 100%);
+    border-radius: 50%;
+}
+.audio__name {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.progress__container {
+    width: 100%px;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #a7a7a7;
+}
+.progress-bar {
+    background-color: #303030;
+    border-radius: 5px;
+    height: 6px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn {
+    cursor: pointer;
+}
+.btn img {
+    width: 32px;
+    height: 32px;
+}
+.volvume {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.volvume__img {
+    width: 32px;
+    height: 32px;
+}
+.volvume__range {
+    cursor: pointer;
+    width: 100px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #a7a7a7;
+}
+.volvume__slider {
+    background-color: #303030;
+    height: 5px;
+}
+.active__button {
+    background-color: #a7a7a7;
+    border-radius: 16px;
+    width: 32px;
+}
+.playList {
+    width: 280px;
+    height: 500px;
+    overflow-y: hidden;
+    background-color: #fff;
+    margin-left: 26px;
+    border-radius: 30px;
+    padding: 25px;
+}
+.playList__elem { 
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.progress__time {
+    margin-bottom: 35px;
+    margin: 0 auto 35px auto
+}

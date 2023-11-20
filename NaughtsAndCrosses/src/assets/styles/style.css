@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #858585;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    width: 600px;
+    height: 600px;
+    padding: 45px;
+    border-radius: 30px;
+    background-color: #fff;
+    
+}
+.area {
+    width: 156px;
+    height: 156px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    font-size: 0;
+
+}
+.blockItem {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    border: 1px solid #000;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+.winCollor {
+    background-color: greenyellow;
+}
+.winner {
+    display: none;
+}
+
+.newGame__button {
+    width: 80px;
+    text-align: center;
+    background-color: #fd29f3;
+    color:white;
+    cursor: pointer;
+    border-radius: 8px;
+}

@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#game {
+    text-align: center;
+    padding: 5em;
+
+}
+
+#game canvas {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найди число</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="game">
+            <div class="input-container">
+                <input id="first-number" type="text" class="input__number" placeholder="Введите первое число" value="1">
+                <input id="second-number" type="text" class="input__number" placeholder="Введите второе число" value="100">
+            </div>
+            <div class="gameStart__controls">
+                <button id="start-button" class="gameStart__button">Загадать число</button>
+            </div>
+            <span class="output__response"></span>
+            <div class="answer__input-container">
+                <input id="answer__input" type="text" class="input__number input__number-answer" placeholder="Введите число">
+                <button id="answer-button" class="gameStart__button">Проверить число</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="./js/main.js"></script>
+</html>

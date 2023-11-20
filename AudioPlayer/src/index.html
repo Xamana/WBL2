@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аудио плеер</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <div class="player-title">Now play</div>
+            <div class="cover__container">
+                <div class="cover"></div>
+            </div>
+            <div class="audio__name">XXXTent</div>
+            <audio src="" class="audio"></audio>
+            <div class="progress__container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="progress__time">
+                <span class="currentTime"></span>/<span class="durationTime"></span>
+            </div>
+            <div class="buttons">
+                <div class="btn mix"><img src="./assets/img/mix.svg" alt="mix"></div>
+                <div class="btn prev"><img src="./assets/img/prev.svg" alt="prev"></div>
+                <div class="btn play"><img class="control__audio" src="./assets/img/play.svg" alt="play/pause"></div>
+                <div class="btn next"><img src="./assets/img/next.svg" alt="next"></div>
+                <div class="btn repeat"><img  src="./assets/img/repeat.svg" alt="repeat"></div>
+            </div>
+            <div class="volvume">
+                <img class='volvume__img'src="./assets/img/volHigh.svg" alt="">
+                <div class="volvume__range"><div class="volvume__slider"></div></div>
+            </div>
+        </div>
+        <div class="playList"></div>
+    </div>
+</body>
+<script type="module" src="./js/main.js"></script>
+</html>
